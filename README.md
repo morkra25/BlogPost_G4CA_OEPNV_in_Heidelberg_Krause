@@ -60,7 +60,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>Die Ergebnisse der Passantenbefragung zeichnen ein klares räumliches Bild: Die zentralen Stadtteile Heidelbergs – Altstadt, Bergheim, Weststadt, Neuenheim und Bahnstadt – werden von den Befragten überwiegend als gut angebunden wahrgenommen. Periphere Stadtteile wie <strong>Emmertsgrund, Boxberg, Schlierbach und Ziegelhausen</strong> schneiden hingegen deutlich schlechter ab. Je weiter ein Stadtteil vom Zentrum entfernt liegt, desto schlechter wird die ÖPNV-Versorgung empfunden.</p>
 </div>
 
-<img src="BILD_BEFRAGUNG_EINFÜGEN.png" title="Ergebnisse der Passantenbefragung" alt="Karte der Passantenbefragungsergebnisse" width="100%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragung_Ergebnisse_zusammen.jpg" title="Ergebnisse der Passantenbefragung" alt="Karte der Passantenbefragungsergebnisse" width="100%">
 <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 1: Ergebnisse der Passantenbefragung (zusammengefasste Eintragungen)</em></div>
 
 <div align="justify">
