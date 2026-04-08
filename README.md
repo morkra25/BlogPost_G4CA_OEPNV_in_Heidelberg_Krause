@@ -3,13 +3,13 @@
 ## Wie gut ist der Bus wirklich? Warum Gefühl und Fahrplan nicht immer übereinstimmen
 
 <div align="justify">
-Wer in Heidelberg im Neckartal wohnt, findet wenige Meter entfernt eine Straßenbahnhaltestelle. Wer am Emmertsgrund oder in Ziegelhausen lebt, kennt das gegenteilige Gefühl: der Bus kommt selten, und bis zur nächsten Haltestelle ist es ein Stück zu laufen. Doch wie gut ist das Heidelberger Nahverkehrsnetz eigentlich wirklich – und deckt sich das, was die Menschen empfinden, mit dem, was die Fahrplandaten zeigen?
+Wer in Heidelberg im Neckartal wohnt, findet wenige Meter entfernt eine Straßenbahnhaltestelle. Wer am Emmertsgrund oder in Ziegelhausen lebt, kennt das gegenteilige Gefühl: der Bus kommt selten, und bis zur nächsten Haltestelle ist es ein Stück zu laufen. Doch wie gut ist das Heidelberger Nahverkehrsnetz eigentlich wirklich? Und deckt sich das, was die Menschen empfinden, mit dem, was die Fahrplandaten zeigen?
 
 Genau dieser Frage sind wir im Rahmen des Seminars <em>„GIS for Sustainable Cities and Climate Action"</em> an der Universität Heidelberg nachgegangen. Unser Ziel: die ÖPNV-Angebotsqualität in Heidelberg sowohl aus der Perspektive der Bevölkerung als auch anhand objektiver Daten zu untersuchen – und beides miteinander zu vergleichen.
 </div>
 
 <div align="justify">
-<p>Der Hintergrund ist nicht trivial. Der Verkehrssektor verursacht in Deutschland rund 22 % aller CO₂-Emissionen, und der motorisierte Individualverkehr ist mit Abstand der größte Verursacher. Damit die Klimaziele bis 2045 erreicht werden können, braucht es eine echte Verkehrswende hin zum öffentlichen Nahverkehr – den sogenannten „Modal Shift". Doch dafür muss der ÖPNV nicht nur gut sein, sondern auch als gut wahrgenommen werden.</p>
+<p>Der Hintergrund ist nicht trivial. Der Verkehrssektor verursacht in Deutschland rund 22 % aller CO₂-Emissionen, und der motorisierte Individualverkehr ist mit Abstand der größte Verursacher. Damit die Klimaziele bis 2045 erreicht werden können, braucht es eine echte Verkehrswende hin zum öffentlichen Nahverkehr, den sogenannten „Modal Shift". Doch dafür muss der ÖPNV nicht nur gut sein, sondern auch als gut wahrgenommen werden.</p>
 </div>
 
 <div style="border-left: 4px solid #b8b9ba; padding: 0.5em 1em; margin: 1em 0;">
@@ -67,7 +67,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>Die GIS-basierte Güteklassenanalyse bestätigt dieses räumliche Grundmuster – kommt aber zu quantitativ deutlich positiveren Ergebnissen. Während laut Befragung nur rund <strong>34 % der Bevölkerung</strong> das Gefühl hat, gut angebunden zu sein, zeigt die Güteklassenanalyse, dass objektiv betrachtet <strong>77 % der Bevölkerung</strong> in gut bis sehr gut erschlossenen Bereichen wohnt.</p>
 </div>
 
-<img src="BILD_GUETEKLASSEN_EINFÜGEN.png" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg" width="100%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Karte_Gueteklassen.jpg" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg" width="100%">
 <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 2: ÖPNV-Güteklassen in Heidelberg (Isochronen-basierte Analyse)</em></div>
 
 ---
