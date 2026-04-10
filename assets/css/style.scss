@@ -4,20 +4,13 @@
 @import "{{ site.theme }}";
 
 .inner {
-  max-width: 850px;   // oder 900px / 1000px je nach Geschmack
+  max-width: 850px !important;
   margin: 0 auto;
-  padding: 0 20px;    // bisschen Rand auf mobilen Geräten
+  padding: 0 20px;
 }
 
-.img-row {
-  display: flex;
-  gap: 10px;
-}
-
-.img-small {
-  width: 40%;
-}
-
-.img-large {
+img {
+  max-width: 100%;
   width: 100%;
+  display: block;
 }
