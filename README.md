@@ -39,7 +39,9 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>Die Befragten wurden gebeten, auf der Karte einzuzeichnen, welche Orte in Heidelberg ihrer Meinung nach <span style="color:green;"><strong>gut</strong></span>, <span style="color:#b8a000;"><strong>mittelmäßig</strong></span> oder <span style="color:red;"><strong>schlecht</strong></span> durch den ÖPNV erschlossen sind. Die ausgefüllten Karten wurden anschließend digital erfasst, georeferenziert und in einem GIS zu einer gemeinsamen Rasterkarte zusammengeführt.</p>
 </div>
 
-** HIER BILD VON SKETCHMAP **
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragungsbeispiel.png" style="width: 70%;">
+
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 1: Beispiel einer Befragung</em></div>
 
 
 #### 2. Die objektive Seite: Fahrplandaten und der Güteklassenansatz
@@ -47,24 +49,31 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <div align="justify">
 <p>Für die datengestützte Analyse haben wir <strong>GTFS-Daten</strong> (General Transit Feed Specification) verwendet, ein standardisiertes Format, das alle Fahrplandaten des öffentlichen Nahverkehrs enthält: Haltestellen, Linien, Abfahrtszeiten und Linienverläufe.</p>
 
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png" style="width: 70%;">
+
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 1: Skizze GTFS-Daten</em></div>
+
 <p>Auf dieser Grundlage haben wir den <strong>Güteklassenansatz</strong> angewendet, ein aus der Schweiz und Österreich bekanntes Verfahren zur Bewertung der ÖPNV-Erschließung. Der Ansatz läuft in zwei Schritten ab:</p>
 
 <ul>
   <li>Zunächst wird jede Haltestelle anhand des besten verfügbaren Verkehrsmittels und der Taktfrequenz werktags zwischen 6 und 20 Uhr einer <strong>Haltestellenkategorie</strong> zugeordnet. Straßenbahn und S-Bahn werden dabei höher bewertet als der Busverkehr.</li>
-  <li>Im zweiten Schritt wird die fußläufige Erreichbarkeit einbezogen. Um jede Haltestelle werden Isochronen berechnet, also Zonen mit gleicher Gehzeit. Daraus ergibt sich für jeden Punkt der Stadt eine <strong>Güteklasse</strong> von "sehr gut" (a) bis "unzureichend" (f).</li>
+
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_HS_Kategorie.png" style="width: 70%;">
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 2: Logik Haltestellenkategorie</em></div>
+
+
+
+  <li>Im zweiten Schritt wird die fußläufige Erreichbarkeit einbezogen. Um jede Haltestelle werden Isochronen berechnet, also Zonen mit gleicher Gehzeit. Daraus ergibt sich für jeden Punkt der Stadt eine <strong>Güteklasse</strong> von "sehr gut"<span style="color:#00b050;"> (a)</span>  bis "unzureichend" <span style="color:#8f0303;"> (f)</span>.</li>
+
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_GK_Isochronen.png" style="width: 70%;">
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 3: Logik Güteklassenisochronen</em></div>
+
 </ul>
 
 <p>Beide Ergebnisse wurden abschließend mit einem Bevölkerungsraster verschnitten, um zu beziffern, wie viele Menschen in welcher Versorgungsqualität leben.</p>
 </div>
 
 
-<div style="display: flex; gap: 20px;">
-  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png" style="width: 47%;">
-  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_GK_Isochronen.png" style="width: 47%;">
-</div>
-
-
-**HIER KLEINE ABBILDUNGEN VON DATENBESCHREIBUNG und Methoden!!!**
 
 ---
 
