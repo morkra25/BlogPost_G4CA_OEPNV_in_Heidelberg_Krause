@@ -1,6 +1,6 @@
-# ÖPNV in Heidelberg: ein Zusammenspiel aus Wahrnehmung und Berechnungen
+# ÖPNV in Heidelberg: ein Zusammenspiel aus Wahrnehmung und Analyse
 
-## Wie gut ist der Bus wirklich? Warum Gefühl und Fahrplan nicht immer übereinstimmen
+## Wie gut ist der ÖPNV wirklich? Warum Gefühl und Fahrplan nicht immer übereinstimmen
 
 <div align="justify">
 Wer in Heidelberg in der Innenstadt wohnt, hat meist eine Straßenbahnhaltestelle in der Nähe. In Stadtteilen wie Emmertsgrund oder Ziegelhausen sieht das anders aus: Der Bus fährt seltener, und zur nächsten Haltestelle ist es oft ein längerer Weg. Aber wie gut ist das Heidelberger ÖPNV-Netz wirklich? Und stimmt die gefühlte Wahrnehmung mit den Fahrplandaten überein?
@@ -49,11 +49,11 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 #### 2. Die objektive Seite: Fahrplandaten und der Güteklassenansatz
 
 <div align="justify">
-<p>Für die datengestützte Analyse haben wir <strong>GTFS-Daten</strong> (General Transit Feed Specification) verwendet, ein standardisiertes Format, das alle Fahrplandaten des öffentlichen Nahverkehrs enthält: Haltestellen, Linien, Abfahrtszeiten und Linienverläufe uvm.</p>
+<p>Für die datengestützte Analyse haben wir <strong>GTFS-Daten</strong> (General Transit Feed Specification) verwendet, ein standardisiertes Format, das alle Fahrplandaten des öffentlichen Nahverkehrs enthält: Haltestellen, Linien, Abfahrtszeiten und Linienverläufe und weitere Informationen.</p>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png" style="width: 75%;">
 
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 1: Skizze GTFS-Daten</em></div>
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 2: Skizze GTFS-Daten</em></div>
 
 <p>Auf dieser Grundlage haben wir den <strong>Güteklassenansatz</strong> angewendet, ein aus der Schweiz und Österreich bekanntes Verfahren zur Bewertung der ÖPNV-Erschließung. Der Ansatz läuft in zwei Schritten ab:</p>
 
@@ -61,15 +61,12 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
   <li>Zunächst wird jede Haltestelle anhand des besten verfügbaren Verkehrsmittels und der Taktfrequenz werktags zwischen 6 und 20 Uhr einer <strong>Haltestellenkategorie</strong> zugeordnet. Straßenbahn und S-Bahn werden dabei höher bewertet als der Busverkehr.</li>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_HS_Kategorie.png" style="width: 72%;">
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 2: Logik Haltestellenkategorie</em></div>
-
-
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 3: Logik Haltestellenkategorie</em></div>
 
   <li>Im zweiten Schritt wird die fußläufige Erreichbarkeit einbezogen. Um jede Haltestelle werden Isochronen berechnet, also Zonen mit gleicher Gehzeit. Daraus ergibt sich für jeden Punkt der Stadt eine <strong>Güteklasse</strong> von "sehr gut"<span style="color:#00b050;"> (a)</span>  bis "unzureichend" <span style="color:#c00000;"> (f)</span>.</li>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_GK_Isochronen.png" style="width: 72%;">
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 3: Logik Güteklassenisochronen</em></div>
-
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 4: Logik Güteklassenisochronen</em></div>
 </ul>
 
 <p>Beide Ergebnisse wurden abschließend mit einem Bevölkerungsraster verschnitten, um zu beziffern, wie viele Menschen in welcher Versorgungsqualität leben.</p>
@@ -84,12 +81,12 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <div align="justify">
 <p>Die Passantenbefragung zeigt ein klares räumliches Muster: Zentrale Stadtteile wie Altstadt, Bergheim, Weststadt, Neuenheim und Bahnstadt werden überwiegend als gut angebunden wahrgenommen, während periphere Lagen wie <strong>Emmertsgrund, Boxberg, Schlierbach und Ziegelhausen</strong> deutlich schlechter abschneiden. Grundsätzlich gilt: Mit zunehmender Entfernung vom Zentrum sinkt die wahrgenommene ÖPNV-Qualität. Besonders die Nähe zu Straßenbahnlinien spielt dabei eine wichtige Rolle.</p>
 
-<p>In Zahlen: Laut Befragung fühlen sich rund <strong>34 % der Bevölkerung</strong> gut angebunden, <strong>56 %</strong> mittelmäßig und <strong>10 %</strong> schlecht. Interessant ist dabei, dass Stadtteile wie Rohrbach, Wieblingen oder Handschuhsheim je nach Befragtem sehr unterschiedlich eingeschätzt wurden, was auf eine heterogene Alltagserfahrung innerhalb dieser Stadtteile hindeutet.</p>
+<p>In Zahlen: Laut Befragung fühlen sich rund <strong>34 % der Bevölkerung</strong> gut angebunden, <strong>56 %</strong> mittelmäßig und <strong>10 %</strong> schlecht. Interessant ist dabei, dass Stadtteile wie Rohrbach, Wieblingen oder Handschuhsheim teils sehr unterschiedlich eingeschätzt wurden, was auf eine heterogene Alltagserfahrung innerhalb dieser Stadtteile hindeutet.</p>
 </div>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragung_Ergebnisse_zusammen.jpg" alt="Karte der Passantenbefragungsergebnisse">
 
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 4: Ergebnisse der Passantenbefragung (zusammengefasste Eintragungen)</em></div>
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 5: Ergebnisse der Passantenbefragung (zusammengefasste Eintragungen)</em></div>
 
 <div align="justify">
 <p>Die GIS-basierte Güteklassenanalyse bestätigt das räumliche Grundmuster, kommt aber zu quantitativ deutlich positiveren Ergebnissen. Die höchsten Güteklassen konzentrieren sich in den dicht besiedelten, zentralen Bereichen und entlang der Schienenachsen. Mit zunehmender Entfernung vom Zentrum nimmt die Angebotsqualität ab. Gleichzeitig zeigt sich, dass einzelne Haltestellen mit hoher Bedienfrequenz auch in peripheren Stadtteilen wie Boxberg oder Emmertsgrund lokal gute Bewertungen erzeugen.</p>
@@ -98,7 +95,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 </div>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Karte_Gueteklassen.jpg" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg">
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 5: ÖPNV-Güteklassen in Heidelberg (Isochronen-basierte Analyse)</em></div>
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 6: ÖPNV-Güteklassen in Heidelberg (Isochronen-basierte Analyse)</em></div>
 
 ---
 
@@ -109,7 +106,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 
 <p>Beide Ansätze haben Grenzen: Die Befragung ist mit 31 Personen und drei Bewertungsklassen nur eingeschränkt belastbar und anfällig für subjektive Verzerrungen. Die GTFS-Daten bilden dagegen nur das theoretische Fahrplanangebot ab, nicht Verspätungen, Ausfälle oder Ferienfahrpläne. Auch die gewählten Schwellenwerte bleiben teilweise willkürlich.</p>
 
-<p>Was die Ergebnisse dennoch klar zeigen: Ein gut ausgebautes ÖPNV-Angebot allein reicht nicht aus, solange es nicht als solches wahrgenommen wird. Bei der Befragung habe wir viele genervte Kommentare zum Heidelberger ÖPNV gehört, was den Eindruck einer Lücke zwischen objektivem Angebot und subjektiver Erfahrung unterstreicht. Gerade in Außenstadtteilen sollte die Versorgung weiter verbessert werden, um den Modal Shift zu fördern.</p>
+<p>Was die Ergebnisse dennoch klar zeigen: Ein gut ausgebautes ÖPNV-Angebot allein reicht nicht aus, solange es nicht als solches wahrgenommen wird. Bei der Befragung haben wir viele genervte Kommentare zum Heidelberger ÖPNV gehört, was den Eindruck einer Lücke zwischen objektivem Angebot und subjektiver Erfahrung unterstreicht. Gerade in Außenstadtteilen sollte die Versorgung weiter verbessert werden, um den Modal Shift zu fördern.</p>
 
 <p>Für weiterführende Untersuchungen wären größere und differenziertere Befragungsstichproben, stärker harmonisierte Klassifikationssysteme sowie Zeitreihenanalysen sinnvoll, um zu beobachten, wie sich Angebot und Wahrnehmung gemeinsam entwickeln.</p>
 </div>
