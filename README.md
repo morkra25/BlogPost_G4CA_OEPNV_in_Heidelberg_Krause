@@ -69,8 +69,6 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>Beide Ergebnisse wurden abschließend mit einem Bevölkerungsraster verschnitten, um zu beziffern, wie viele Menschen in welcher Versorgungsqualität leben.</p>
 </div>
 
-
-
 ---
 
 ## Ergebnisse
@@ -78,31 +76,35 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 ### Was die Befragten sagen und was die Daten zeigen
 
 <div align="justify">
-<p>Die Passantenbefragung ergibt ein räumlich recht eindeutiges Bild. Die zentralen Stadtteile Heidelbergs, also Altstadt, Bergheim, Weststadt, Neuenheim und Bahnstadt, werden von den Befragten überwiegend als gut angebunden wahrgenommen. Periphere Stadtteile wie <strong>Emmertsgrund, Boxberg, Schlierbach und Ziegelhausen</strong> schneiden hingegen deutlich schlechter ab. Grundsätzlich gilt: Je weiter ein Stadtteil vom Zentrum entfernt liegt, desto schlechter wird die ÖPNV-Versorgung empfunden.</p>
+<p>Die Passantenbefragung ergibt ein räumlich recht eindeutiges Bild. Die zentralen Stadtteile Heidelbergs, also Altstadt, Bergheim, Weststadt, Neuenheim und Bahnstadt, werden von den Befragten überwiegend als gut angebunden wahrgenommen. Periphere Stadtteile wie <strong>Emmertsgrund, Boxberg, Schlierbach und Ziegelhausen</strong> schneiden hingegen deutlich schlechter ab. Grundsätzlich gilt: Je weiter ein Stadtteil vom Zentrum entfernt liegt, desto schlechter wird die ÖPNV-Versorgung empfunden. Außerdem zeigt sich, dass die Nähe zu Straßenbahnlinien in der Wahrnehmung eine besondere Rolle spielt.</p>
+
+<p>In Zahlen: Laut Befragung fühlen sich rund <strong>34 % der Bevölkerung</strong> gut angebunden, <strong>56 %</strong> mittelmäßig und <strong>10 %</strong> schlecht. Interessant ist dabei, dass Stadtteile wie Rohrbach, Wieblingen oder Handschuhsheim je nach Befragtem sehr unterschiedlich eingeschätzt wurden, was auf eine heterogene Alltagserfahrung innerhalb dieser Stadtteile hindeutet.</p>
 </div>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragung_Ergebnisse_zusammen.jpg" alt="Karte der Passantenbefragungsergebnisse">
 
 <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 4: Ergebnisse der Passantenbefragung (zusammengefasste Eintragungen)</em></div>
 
-
 <div align="justify">
-<p>Die GIS-basierte Güteklassenanalyse bestätigt das räumliche Grundmuster, kommt aber zu quantitativ deutlich positiveren Ergebnissen. Laut Befragung haben nur rund <strong>34 % der Bevölkerung</strong> das Gefühl, gut angebunden zu sein. Die Güteklassenanalyse zeigt dagegen, dass objektiv betrachtet <strong>77 % der Bevölkerung</strong> in gut bis sehr gut erschlossenen Bereichen wohnen.</p>
+<p>Die GIS-basierte Güteklassenanalyse bestätigt das räumliche Grundmuster, kommt aber zu quantitativ deutlich positiveren Ergebnissen. Die höchsten Güteklassen konzentrieren sich in den dicht besiedelten, zentralen Bereichen und entlang der Schienenachsen. Mit zunehmender Entfernung vom Zentrum nimmt die Angebotsqualität ab. Gleichzeitig zeigt sich, dass einzelne Haltestellen mit hoher Bedienfrequenz auch in peripheren Stadtteilen wie Boxberg oder Emmertsgrund lokal gute Bewertungen erzeugen.</p>
+
+<p>In Zahlen: <strong>77 % der Bevölkerung</strong> leben in gut bis sehr gut erschlossenen Bereichen (Güteklassen a und b), weitere <strong>21 %</strong> in mittleren Klassen (c und d), und lediglich <strong>0,6 %</strong> in schwach erschlossenen Bereichen. Rund <strong>1,2 %</strong> der Bevölkerung sind nach den zugrunde gelegten Intervallen gar nicht mit ÖPNV versorgt.</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Karte_Gueteklassen.jpg" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg" width="105%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Karte_Gueteklassen.jpg" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg">
 <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 5: ÖPNV-Güteklassen in Heidelberg (Isochronen-basierte Analyse)</em></div>
 
----
 
 ## Fazit und Ausblick
 
 <div align="justify">
-<p>Beide Methoden kommen zum selben räumlichen Grundbefund: Zentrale Lagen sind besser versorgt als periphere, und die Straßenbahn spielt eine wichtige Rolle für eine positive Bewertung. Der deutliche zahlenmäßige Unterschied zwischen gefühlter und gemessener Versorgungsqualität ist dabei interessant. Er zeigt, dass ein gut ausgebautes ÖPNV-Angebot allein nicht ausreicht, solange es von den Menschen nicht entsprechend wahrgenommen wird.</p>
+<p>Beide Methoden kommen zum selben räumlichen Grundbefund: Zentrale Lagen sind besser versorgt als periphere, und die Straßenbahn spielt eine entscheidende Rolle für eine positive Bewertung. Die auffälligsten Unterschiede treten in den Randbereichen der Stadt auf, wo periphere Stadtteile in der subjektiven Wahrnehmung deutlich kritischer eingeschätzt werden als in der modellbasierten Analyse. Das spiegelt sich auch in den Zahlen wider: Während die Befragung nur 34 % der Bevölkerung in gut angebundenen Bereichen verortet, kommt die Güteklassenanalyse auf 77 %. Dieser Unterschied erklärt sich vor allem methodisch: Der Güteklassenansatz bewertet kleinräumig und haltestellenbezogen, während die Befragung eher den allgemeinen Eindruck ganzer Stadtbereiche und Linienräume einfängt, welche dann flächendeckend negativ bewertet werden. Hinzu kommt, dass die subjektive Wahrnehmung stark durch individuelle Alltagserfahrungen und Erwartungen geprägt ist.</p>
 
-<p>Besonders in den Außenstadtteilen, wo ein Umstieg vom Auto auf Bus und Bahn besonders relevant wäre, fühlen sich viele schlecht angebunden, auch wenn die Datenlage ein differenzierteres Bild ergibt. Nicht zuletzt haben wir bei der Befragung viele genervte Kommentare zum Heidelberger ÖPNV gehört, was diesen Eindruck nochmal unterstreicht. Die Stadtplanung sollte daher nicht nur das Angebot weiterentwickeln, sondern auch überlegen, wie sie besser darüber informiert, was bereits vorhanden ist.</p>
+<p>Beide Ansätze haben dabei ihre eigenen Grenzen. Die Befragung ist mit 31 Personen und nur drei Bewertungsklassen quantitativ nur eingeschränkt belastbar, und Verzerrungen durch individuelle Mobilitätsbedürfnisse oder allgemeine Einstellungen zum ÖPNV lassen sich nicht ausschließen. Die GTFS-Daten hingegen bilden lediglich das theoretische Fahrplanangebot ab, nicht aber Verspätungen, Ausfälle oder Ferienfahrpläne. Auch die Schwellenwerte des Güteklassenansatzes wurden für den Heidelberger Stadtraum angepasst und bleiben in gewissem Maße willkürlich.</p>
 
-<p>Für weiterführende Untersuchungen wären größere Befragungsstichproben, besser aufeinander abgestimmte Klassifikationssysteme und Zeitreihenanalysen sinnvoll, um zu beobachten, wie sich Angebot und Wahrnehmung über die Zeit gemeinsam entwickeln.</p>
+<p>Was die Ergebnisse dennoch klar zeigen: Ein gut ausgebautes ÖPNV-Angebot allein reicht nicht aus, solange es nicht als solches wahrgenommen wird. Nicht zuletzt haben wir bei der Befragung viele genervte Kommentare zum Heidelberger ÖPNV gehört, was den Eindruck einer Lücke zwischen objektivem Angebot und subjektiver Erfahrung nochmal unterstreicht. Gerade in den Außenstadtteilen, wo ein Umstieg vom Auto auf Bus und Bahn am dringendsten wäre, sollte die Versorgung weiter ausgebaut werden, um den Modal Shift voranzutreiben.</p>
+
+<p>Für weiterführende Untersuchungen wären größere und differenziertere Befragungsstichproben, stärker harmonisierte Klassifikationssysteme sowie Zeitreihenanalysen sinnvoll, um zu beobachten, wie sich Angebot und Wahrnehmung gemeinsam entwickeln.</p>
 </div>
 
 ---
