@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .inner {
-  max-width: 900px;   // oder 900px / 1000px je nach Geschmack
+  max-width: 850px;   // oder 900px / 1000px je nach Geschmack
   margin: 0 auto;
   padding: 0 20px;    // bisschen Rand auf mobilen Geräten
 }
@@ -20,9 +20,4 @@
 
 .img-large {
   width: 100%;
-}
-
-.full-width {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
 }
