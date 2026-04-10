@@ -3,6 +3,19 @@
 
 @import "{{ site.theme }}";
 
+.page-header {
+  padding: 1rem 2rem;
+}
+
+.project-name,
+.project-tagline {
+  display: inline;
+}
+
+.project-name::after {
+  content: " — ";
+}
+
 .inner {
   max-width: 850px !important;
   margin: 0 auto;
