@@ -3,23 +3,19 @@
 ## Wie gut ist der Bus wirklich? Warum Gefühl und Fahrplan nicht immer übereinstimmen
 
 <div align="justify">
-Wer in Heidelberg in der Innenstadt wohnt, hat meist eine Straßenbahnhaltestelle in unmittelbarer Nähe. Wer dagegen am Emmertsgrund oder in Ziegelhausen lebt, kennt eine andere Realität: Der Bus kommt selten, und bis zur nächsten Haltestelle ist es ein gutes Stück zu laufen. Aber wie gut ist das Heidelberger ÖPNV-Netz insgesamt eigentlich? Und stimmt das, was die Menschen gefühlt wahrnehmen, mit dem überein, was die Fahrplandaten tatsächlich zeigen?
+Wer in Heidelberg in der Innenstadt wohnt, hat meist eine Straßenbahnhaltestelle in unmittelbarer Nähe. Wer dagegen am Emmertsgrund oder in Ziegelhausen lebt, kennt eine andere Realität: Der Bus kommt selten, und bis zur nächsten Haltestelle ist es ein gutes Stück zu laufen. Aber wie gut ist das Heidelberger ÖPNV-Netz insgesamt eigentlich wirklich? Und stimmt das, was die Menschen gefühlt wahrnehmen, mit dem überein, was die Fahrplandaten tatsächlich zeigen?
 
 Genau dieser Frage sind wir im Rahmen des Seminars <em>„GIS for Sustainable Cities and Climate Action"</em> nachgegangen. Unser Ziel war es, die ÖPNV-Angebotsqualität in Heidelberg sowohl aus der Perspektive der Bevölkerung als auch anhand objektiver Daten zu untersuchen und die Ergebnisse beider Ansätze miteinander zu vergleichen.
 </div>
 
 <div align="justify">
-<p>Der Hintergrund ist dabei nicht trivial. Der Verkehrssektor verursacht in Deutschland rund 22 % aller CO2-Emissionen, und der motorisierte Individualverkehr trägt den größten Teil davon bei. Um die deutschen Klimaziele bis 2045 noch zu erreichen, braucht es eine Verkehrswende hin zum öffentlichen Nahverkehr, den sogenannten „Modal Shift". Damit das gelingt, muss der ÖPNV aber nicht nur objektiv gut sein, sondern auch als solcher wahrgenommen werden (hier QUELLE!)</p>
+<p>Der Hintergrund ist dabei ein dringend notwendiges Umdenken in der Mobilität zugunsten des Klimaschutzes. Der Verkehrssektor verursacht in Deutschland rund 22 % aller CO2-Emissionen, und der motorisierte Individualverkehr trägt den größten Teil davon bei (UBA 2025). Um die deutschen Klimaziele bis 2045 noch zu erreichen, braucht es eine Verkehrswende hin zum öffentlichen Nahverkehr, den sogenannten „Modal Shift". Damit das gelingt, muss der ÖPNV aber nicht nur objektiv gut sein, sondern auch als solcher wahrgenommen werden (BATTY et al. 2015, Lättmann et al. 2016).</p>
 </div>
 
 <div style="border-left: 4px solid #b8b9ba; padding: 0.5em 1em; margin: 1em 0;">
   <p style="margin: 0 0 0.75em 0;"><strong>Ziel des Projekts:</strong> Vergleich der subjektiv wahrgenommenen und der objektiv messbaren ÖPNV-Versorgungsqualität im gesamten Stadtgebiet Heidelberg.</p>
   <p style="margin: 0;"><strong>Untersuchungsgebiet:</strong> Heidelberg mit seinen 15 Stadtteilen und rund 154.000 Einwohnerinnen und Einwohnern, von der dicht bebauten Weststadt bis zu den Hanglagen am Odenwald.</p>
 </div>
-
-
-**BATTY noch nennen!!!!!**
-
 
 ---
 
@@ -47,7 +43,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 #### 2. Die objektive Seite: Fahrplandaten und der Güteklassenansatz
 
 <div align="justify">
-<p>Für die datengestützte Analyse haben wir <strong>GTFS-Daten</strong> (General Transit Feed Specification) verwendet, ein standardisiertes Format, das alle Fahrplandaten des öffentlichen Nahverkehrs enthält: Haltestellen, Linien, Abfahrtszeiten und Linienverläufe.</p>
+<p>Für die datengestützte Analyse haben wir <strong>GTFS-Daten</strong> (General Transit Feed Specification) verwendet, ein standardisiertes Format, das alle Fahrplandaten des öffentlichen Nahverkehrs enthält: Haltestellen, Linien, Abfahrtszeiten und Linienverläufe uvm.</p>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png" style="width: 75%;">
 
@@ -63,7 +59,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 
 
 
-  <li>Im zweiten Schritt wird die fußläufige Erreichbarkeit einbezogen. Um jede Haltestelle werden Isochronen berechnet, also Zonen mit gleicher Gehzeit. Daraus ergibt sich für jeden Punkt der Stadt eine <strong>Güteklasse</strong> von "sehr gut"<span style="color:#00b050;"> (a)</span>  bis "unzureichend" <span style="color:#8f0303;"> (f)</span>.</li>
+  <li>Im zweiten Schritt wird die fußläufige Erreichbarkeit einbezogen. Um jede Haltestelle werden Isochronen berechnet, also Zonen mit gleicher Gehzeit. Daraus ergibt sich für jeden Punkt der Stadt eine <strong>Güteklasse</strong> von "sehr gut"<span style="color:#00b050;"> (a)</span>  bis "unzureichend" <span style="color:#c00000;"> (f)</span>.</li>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_GK_Isochronen.png" style="width: 75%;">
 <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 3: Logik Güteklassenisochronen</em></div>
@@ -113,7 +109,8 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 
 ### *Literatur*
 
-<p>BUNDESNETZAGENTUR / UMWELTBUNDESAMT (UBA) (2025): Klimaschutz im Verkehr. https://www.umweltbundesamt.de/themen/verkehr/klimaschutz-im-verkehr (19.03.2026).</p>
 <p>BATTY, P., PALACIN, R., GONZÁLEZ-GIL, A. (2015): Challenges and opportunities in developing urban modal shift. In: Travel Behaviour and Society 2: 2, S. 109–123.</p>
 <p>HEIDELBERG INSTITUTE FOR GEOINFORMATION TECHNOLOGY (HeiGIT) (2026): SketchMap Tool. https://sketch-map-tool.heigit.org/ (19.03.2026).</p>
+<p>LÄTTMAN, K., FRIMAN, M.; OLSSON, L. E. (2016): Perceived Accessibility of Public Transport as a Potential Indicator of Social Inclusion. In: Social Inclusion 3: 4, S. 36–45.</p>
 <p>PLAN4BETTER (2026): ÖV-Güteklassen. https://goat.plan4better.de/docs/de/toolbox/accessibility_indicators/oev_gueteklassen (19.03.2026).</p>
+<p>UMWELTBUNDESAMT (UBA) (2025): Klimaschutz im Verkehr. https://www.umweltbundesamt.de/themen/verkehr/klimaschutz-im-verkehr#rolle (19.03.2026).</p>
