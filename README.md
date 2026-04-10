@@ -83,7 +83,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>Die GIS-basierte Güteklassenanalyse bestätigt das räumliche Grundmuster, kommt aber zu quantitativ deutlich positiveren Ergebnissen. Laut Befragung haben nur rund <strong>34 % der Bevölkerung</strong> das Gefühl, gut angebunden zu sein. Die Güteklassenanalyse zeigt dagegen, dass objektiv betrachtet <strong>77 % der Bevölkerung</strong> in gut bis sehr gut erschlossenen Bereichen wohnen.</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Karte_Gueteklassen.jpg" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg" width="100%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Karte_Gueteklassen.jpg" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg" class="img-large">
 <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 2: ÖPNV-Güteklassen in Heidelberg (Isochronen-basierte Analyse)</em></div>
 
 ---
