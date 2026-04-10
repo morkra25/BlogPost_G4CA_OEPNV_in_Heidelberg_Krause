@@ -7,13 +7,12 @@
   padding: 1rem 2rem;
 }
 
-.project-name,
-.project-tagline {
-  display: inline;
+.project-name {
+  font-size: 1.2rem;
 }
 
-.project-name::after {
-  content: " — ";
+.project-tagline {
+  font-size: 0.9rem;
 }
 
 .inner {
