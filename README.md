@@ -58,10 +58,10 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 </div>
 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_GK_Isochronen.png" width="45%" />
-</p>
+<div style="display: flex; gap: 20px;">
+  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png" style="width: 47%;">
+  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_GK_Isochronen.png" style="width: 47%;">
+</div>
 
 
 **HIER KLEINE ABBILDUNGEN VON DATENBESCHREIBUNG und Methoden!!!**
