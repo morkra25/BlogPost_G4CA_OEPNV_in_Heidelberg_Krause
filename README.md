@@ -39,7 +39,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>Die Befragten wurden gebeten, auf der Karte einzuzeichnen, welche Orte in Heidelberg ihrer Meinung nach <span style="color:green;"><strong>gut</strong></span>, <span style="color:#b8a000;"><strong>mittelmäßig</strong></span> oder <span style="color:red;"><strong>schlecht</strong></span> durch den ÖPNV erschlossen sind. Die ausgefüllten Karten wurden anschließend digital erfasst, georeferenziert und in einem GIS zu einer gemeinsamen Rasterkarte zusammengeführt.</p>
 </div>
 
-<img src=https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragungbeispiel.png style="width: 70%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragungbeispiel_SketchMap.png" style="width: 75%">
 
 <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 1: Beispiel einer Befragung im SketchMapTool</em></div>
 
