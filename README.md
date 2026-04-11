@@ -1,6 +1,6 @@
 # ÖPNV in Heidelberg: ein Zusammenspiel aus Wahrnehmung und Analyse
 
-## Wie gut ist der ÖPNV wirklich? Warum Gefühl und Fahrplan nicht immer übereinstimmen
+## Wie gut ist der ÖPNV wirklich? Wahrnehmung vs. Daten
 
 <div align="justify">
 Wer in Heidelberg in der Innenstadt wohnt, hat meist eine Straßenbahnhaltestelle in der Nähe. In Stadtteilen wie Emmertsgrund oder Ziegelhausen sieht das anders aus: Der Bus fährt seltener, und zur nächsten Haltestelle ist es oft ein längerer Weg. Aber wie gut ist das Heidelberger ÖPNV-Netz wirklich? Und stimmt die gefühlte Wahrnehmung mit den Fahrplandaten überein?
