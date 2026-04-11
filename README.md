@@ -25,9 +25,9 @@ Hintergrund ist dabei ein dringend notwendiges Umdenken in der Mobilität zuguns
 
 
 <div align="justify" style="font-size: 1em; color: #666; margin-top: 8px;">
-  <em><strong>Hinweis:</strong></em> Detaillierte Informationen zur Methodik sind im Projektreport zu finden:  
-  <a href="Blanko-Link" target="_blank">PDF im GitHub-Repository</a>.
+  <em><strong>Hinweis:</strong></em> Detaillierte Informationen zur Methodik sind im Projektreport zu finden (<a href="data/Report G4CA_ÖPNV_in_Heidelberg_WiSe_25_26_Hohenstein_Albrecht_Krause.pdf" download>Report herunterladen</a></a>).
 </div>
+
 ---
 
 ## Methodik
