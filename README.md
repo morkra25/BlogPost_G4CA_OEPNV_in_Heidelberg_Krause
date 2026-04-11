@@ -49,7 +49,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 #### 2. Die objektive Seite: Fahrplandaten und der Güteklassenansatz
 
 <div align="justify">
-<p>Für die datengestützte Analyse haben wir <strong>GTFS-Daten</strong> (General Transit Feed Specification) verwendet, ein standardisiertes Format, das alle Fahrplandaten des öffentlichen Nahverkehrs enthält: Haltestellen, Linien, Abfahrtszeiten und Linienverläufe und weitere Informationen.</p>
+<p>Für die datengestützte Analyse haben wir <strong>GTFS-Daten</strong> (General Transit Feed Specification) verwendet, ein standardisiertes Format, das alle Fahrplandaten des öffentlichen Nahverkehrs enthält: Haltestellen, Linien, Abfahrtszeiten, Linienverläufe und weitere Informationen.</p>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png" style="width: 75%;">
 
@@ -81,7 +81,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <div align="justify">
 <p>Die Passantenbefragung zeigt ein klares räumliches Muster: Zentrale Stadtteile wie Altstadt, Bergheim, Weststadt, Neuenheim und Bahnstadt werden überwiegend als gut angebunden wahrgenommen, während periphere Lagen wie <strong>Emmertsgrund, Boxberg, Schlierbach und Ziegelhausen</strong> deutlich schlechter abschneiden. Grundsätzlich gilt: Mit zunehmender Entfernung vom Zentrum sinkt die wahrgenommene ÖPNV-Qualität. Besonders die Nähe zu Straßenbahnlinien spielt dabei eine wichtige Rolle.</p>
 
-<p>In Zahlen: Laut Befragung fühlen sich rund <strong>34 % der Bevölkerung</strong> gut angebunden, <strong>56 %</strong> mittelmäßig und <strong>10 %</strong> schlecht. Interessant ist dabei, dass Stadtteile wie Rohrbach, Wieblingen oder Handschuhsheim teils sehr unterschiedlich eingeschätzt wurden, was auf eine heterogene Alltagserfahrung innerhalb dieser Stadtteile hindeutet.</p>
+<p>In Zahlen: Laut Befragung leben <strong>34 % der Bevölkerung</strong> in Bereichen, die in der Befragung überwiegend als gut bewertet wurden, <strong>56 %</strong> in mittelmäßig und <strong>10 %</strong> in schlecht bewerteten Bereichen. Interessant ist dabei, dass Stadtteile wie Rohrbach, Wieblingen oder Handschuhsheim teils sehr unterschiedlich eingeschätzt wurden, was auf eine heterogene Alltagserfahrung innerhalb dieser Stadtteile hindeutet.</p>
 </div>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragung_Ergebnisse_zusammen.jpg" alt="Karte der Passantenbefragungsergebnisse">
