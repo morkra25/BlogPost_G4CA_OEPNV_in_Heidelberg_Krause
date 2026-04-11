@@ -46,9 +46,6 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
   <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 1: Beispiel einer Befragung im SketchMapTool</em></div>
 </div>
 
-
-
-
 #### 2. Die objektive Seite: Fahrplandaten und der Güteklassenansatz
 
 <div align="justify">
@@ -58,8 +55,6 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
   <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png"  style="width: 72%; display: block; margin: 0 auto;">
   <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 2: Skizze GTFS-Daten</em></div>
 </div>
-
-
 
 <p>Auf dieser Grundlage haben wir den <strong>Güteklassenansatz</strong> angewendet, ein aus der Schweiz und Österreich bekanntes Verfahren zur Bewertung der ÖPNV-Erschließung. Der Ansatz läuft in zwei Schritten ab:</p>
 
@@ -119,7 +114,7 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <div align="justify">
 <p>Beide Methoden kommen zum selben räumlichen Grundbefund: Zentrale Lagen sind besser versorgt als periphere, und die Straßenbahn spielt eine entscheidende Rolle für eine positive Bewertung. Die auffälligsten Unterschiede treten in den Randbereichen der Stadt auf, wo periphere Stadtteile in der subjektiven Wahrnehmung deutlich kritischer eingeschätzt werden als in der modellbasierten Analyse. Das spiegelt sich auch in den Zahlen wider: Während die Befragung nur 34 % der Bevölkerung in gut angebundenen Bereichen verortet, kommt die Güteklassenanalyse auf 77 %. Dieser Unterschied erklärt sich vor allem methodisch: Der Güteklassenansatz bewertet kleinräumig und haltestellenbezogen, während die Befragung eher den allgemeinen Eindruck ganzer Stadtbereiche und Linienräume einfängt, welche dann flächendeckend negativ bewertet werden. Hinzu kommt, dass die subjektive Wahrnehmung stark durch individuelle Alltagserfahrungen und Erwartungen geprägt ist.</p>
 
-<p>Beide Ansätze haben Grenzen: Die Befragung ist mit 31 Personen und drei Bewertungsklassen nur eingeschränkt belastbar und anfällig für subjektive Verzerrungen. Die GTFS-Daten bilden dagegen nur das theoretische Fahrplanangebot ab, nicht Verspätungen, Ausfälle oder Ferienfahrpläne. Auch die gewählten Schwellenwerte bleiben teilweise willkürlich.</p>
+<p>Beide Ansätze haben weitere Grenzen: Die Befragung ist mit 31 Personen und drei Bewertungsklassen nur eingeschränkt belastbar und anfällig für subjektive Verzerrungen, zudem können Aggregation und Reklassifizierung der Daten kleinräumige Unterschiede glätten. Die GTFS-Daten bilden dagegen nur das theoretische Fahrplanangebot ab, nicht Verspätungen, Ausfälle oder Ferienfahrpläne. Auch die gewählten Schwellenwerte bleiben teilweise willkürlich.</p>
 
 <p>Was die Ergebnisse dennoch klar zeigen: Ein gut ausgebautes ÖPNV-Angebot allein reicht nicht aus, solange es nicht als solches wahrgenommen wird. Bei der Befragung haben wir viele genervte Kommentare zum Heidelberger ÖPNV gehört, was den Eindruck einer Lücke zwischen objektivem Angebot und subjektiver Erfahrung unterstreicht. Gerade in Außenstadtteilen sollte die Versorgung weiter verbessert werden, um den Modal Shift zu fördern.</p>
 
