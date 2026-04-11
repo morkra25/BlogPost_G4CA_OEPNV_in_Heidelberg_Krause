@@ -23,6 +23,11 @@ Hintergrund ist dabei ein dringend notwendiges Umdenken in der Mobilität zuguns
   <p style="margin: 0;"><strong>Untersuchungsgebiet:</strong> Heidelberg mit seinen 15 Stadtteilen und rund 154.000 Einwohnerinnen und Einwohnern, von der dicht bebauten Weststadt bis zu den Hanglagen am Odenwald.</p>
 </div>
 
+
+<div align="justify" style="font-size: 1em; color: #666; margin-top: 8px;">
+  <em><strong>Hinweis:</strong></em> Detaillierte Informationen zur Methodik sind im Projektreport zu finden:  
+  <a href="Blanko-Link" target="_blank">PDF im GitHub-Repository</a>.
+</div>
 ---
 
 ## Methodik
@@ -121,7 +126,9 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>Für weiterführende Untersuchungen wären größere und differenziertere Befragungsstichproben, stärker harmonisierte Klassifikationssysteme sowie Zeitreihenanalysen sinnvoll, um zu beobachten, wie sich Angebot und Wahrnehmung gemeinsam entwickeln.</p>
 </div>
 
+
 ---
+
 
 ### *Literatur*
 
