@@ -41,9 +41,12 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>Die Befragten wurden gebeten, auf der Karte einzuzeichnen, welche Orte in Heidelberg ihrer Meinung nach <span style="color:green;"><strong>gut</strong></span>, <span style="color:#b8a000;"><strong>mittelmäßig</strong></span> oder <span style="color:red;"><strong>schlecht</strong></span> durch den ÖPNV erschlossen sind. Die ausgefüllten Karten wurden anschließend digital erfasst, georeferenziert und in einem GIS zu einer gemeinsamen Karte zusammengeführt.</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragungbeispiel_SketchMap.png" style="width: 75%">
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragungbeispiel_SketchMap.png" style="width: 75%; display: block; margin: 0 auto;">
+  <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 1: Beispiel einer Befragung im SketchMapTool</em></div>
+</div>
 
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 1: Beispiel einer Befragung im SketchMapTool</em></div>
+
 
 
 #### 2. Die objektive Seite: Fahrplandaten und der Güteklassenansatz
@@ -51,22 +54,29 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <div align="justify">
 <p>Für die datengestützte Analyse haben wir <strong>GTFS-Daten</strong> (General Transit Feed Specification) verwendet, ein standardisiertes Format, das alle Fahrplandaten des öffentlichen Nahverkehrs enthält: Haltestellen, Linien, Abfahrtszeiten, Linienverläufe und weitere Informationen.</p>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png" style="width: 75%;">
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/GTFS_Skizze.png"  style="width: 72%; display: block; margin: 0 auto;">
+  <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 2: Skizze GTFS-Daten</em></div>
+</div>
 
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 2: Skizze GTFS-Daten</em></div>
+
 
 <p>Auf dieser Grundlage haben wir den <strong>Güteklassenansatz</strong> angewendet, ein aus der Schweiz und Österreich bekanntes Verfahren zur Bewertung der ÖPNV-Erschließung. Der Ansatz läuft in zwei Schritten ab:</p>
 
 <ul>
   <li>Zunächst wird jede Haltestelle anhand des besten verfügbaren Verkehrsmittels und der Taktfrequenz werktags zwischen 6 und 20 Uhr einer <strong>Haltestellenkategorie</strong> zugeordnet. Straßenbahn und S-Bahn werden dabei höher bewertet als der Busverkehr.</li>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_HS_Kategorie.png" style="width: 72%;">
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 3: Logik Haltestellenkategorie</em></div>
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_HS_Kategorie.png" style="width: 72%; display: block; margin: 0 auto;">
+  <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 3: Logik Haltestellenkategorie</em></div>
+</div>
 
   <li>Im zweiten Schritt wird die fußläufige Erreichbarkeit einbezogen. Um jede Haltestelle werden Isochronen berechnet, also Zonen mit gleicher Gehzeit. Daraus ergibt sich für jeden Punkt der Stadt eine <strong>Güteklasse</strong> von "sehr gut"<span style="color:#00b050;"> (a)</span>  bis "unzureichend" <span style="color:#c00000;"> (f)</span>.</li>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_GK_Isochronen.png" style="width: 72%;">
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 4: Logik Güteklassenisochronen</em></div>
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Ermittlung_GK_Isochronen.png" style="width: 72%; display: block; margin: 0 auto;">
+  <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 4: Logik Güteklassenisochronen</em></div>
+</div>
 </ul>
 
 <p>Beide Ergebnisse wurden abschließend mit einem Bevölkerungsraster verschnitten, um zu beziffern, wie viele Menschen in welcher Versorgungsqualität leben.</p>
@@ -84,9 +94,10 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>In Zahlen: Laut Befragung leben <strong>34 % der Bevölkerung</strong> in Bereichen, die in der Befragung überwiegend als gut bewertet wurden, <strong>56 %</strong> in mittelmäßig und <strong>10 %</strong> in schlecht bewerteten Bereichen. Interessant ist dabei, dass Stadtteile wie Rohrbach, Wieblingen oder Handschuhsheim teils sehr unterschiedlich eingeschätzt wurden, was auf eine heterogene Alltagserfahrung innerhalb dieser Stadtteile hindeutet.</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragung_Ergebnisse_zusammen.jpg" alt="Karte der Passantenbefragungsergebnisse">
-
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 5: Ergebnisse der Passantenbefragung (zusammengefasste Eintragungen)</em></div>
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Befragung_Ergebnisse_zusammen.jpg" style="width: 100%; display: block; margin: 0 auto;">
+  <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 5: Ergebnisse der Passantenbefragung (zusammengefasste Eintragungen)</em></div>
+</div>
 
 <div align="justify">
 <p>Die GIS-basierte Güteklassenanalyse bestätigt das räumliche Grundmuster, kommt aber zu quantitativ deutlich positiveren Ergebnissen. Die höchsten Güteklassen konzentrieren sich in den dicht besiedelten, zentralen Bereichen und entlang der Schienenachsen. Mit zunehmender Entfernung vom Zentrum nimmt die Angebotsqualität ab. Gleichzeitig zeigt sich, dass einzelne Haltestellen mit hoher Bedienfrequenz auch in peripheren Stadtteilen wie Boxberg oder Emmertsgrund lokal gute Bewertungen erzeugen.</p>
@@ -94,8 +105,12 @@ Um sowohl die gefühlte als auch die messbare Seite der ÖPNV-Qualität zu erfas
 <p>In Zahlen: <strong>77 % der Bevölkerung</strong> leben in gut bis sehr gut erschlossenen Bereichen (Güteklassen a und b), weitere <strong>21 %</strong> in mittleren Klassen (c und d), und lediglich <strong>0,6 %</strong> in schwach erschlossenen Bereichen. Rund <strong>1,2 %</strong> der Bevölkerung sind nach den zugrunde gelegten Intervallen gar nicht mit ÖPNV versorgt.</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Karte_Gueteklassen.jpg" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg">
-<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 6: ÖPNV-Güteklassen in Heidelberg (Isochronen-basierte Analyse)</em></div>
+
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/morkra25/BlogPost_G4CA_OEPNV_in_Heidelberg_Krause/refs/heads/main/images/Karte_Gueteklassen.jpg" title="Güteklassen-Isochronen" alt="Karte der ÖPNV-Güteklassen in Heidelberg" style="width: 100%; display: block; margin: 0 auto;">
+  <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em;"><em>Abbildung 6: ÖPNV-Güteklassen in Heidelberg (Isochronen-basierte Analyse)</em></div>
+</div>
+
 
 ---
 
